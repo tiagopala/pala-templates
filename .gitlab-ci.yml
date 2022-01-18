@@ -8,7 +8,8 @@ deploy:
   script:
     - cd src/PalaTemplates/templates/PalaTemplateApi/src/PalaTemplateApi.Api
     - dotnet pack -c Release
-    - dotnet nuget add source "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/nuget/index.json" --name gitlab --username gitlab-ci-token --password $CI_JOB_TOKEN --store-password-in-clear-text
-    - dotnet nuget push "bin/Release/*.nupkg" --source gitlab
+    # - dotnet nuget add source "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/nuget/index.json" --name gitlab --username gitlab-ci-token --password $CI_JOB_TOKEN --store-password-in-clear-text
+    # - dotnet nuget push "bin/Release/*.nupkg" --source gitlab
+    - dotnet nuget push "bin/Release/*.nupkg" --api-key $nugeKey --source https://api.nuget.org/v3/index.json
   only:
     - master
