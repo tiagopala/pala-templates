@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-	<LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="templates\PalaTemplateApi\.template.config\template.json" />
+    <Compile Remove="templates\PalaTemplateApi\PalaTemplateApi.Api\**" />
+    <EmbeddedResource Remove="templates\PalaTemplateApi\PalaTemplateApi.Api\**" />
+    <None Remove="templates\PalaTemplateApi\PalaTemplateApi.Api\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="templates\PalaTemplateApi\PalaTemplateApi.Api\PalaTemplateApi.Api.csproj" />
-    <None Include="templates\PalaTemplateApi\PalaTemplateApi.Api\PalaTemplateApi.sln" />
+    <Content Include="templates\PalaTemplateApi\.template.config\template.json" />
   </ItemGroup>
 
 </Project>
