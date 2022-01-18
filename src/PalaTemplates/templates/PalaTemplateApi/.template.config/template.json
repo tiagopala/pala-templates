@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Tiago Pala",
+  "classifications": [ "Pala", "Template", ".NET5", "Api", "C#10" ],
+  "identity": "Pala.Template.Api",
+  "name": "Pala Templates: Api Template",
+  "shortName": "pala.template.api",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

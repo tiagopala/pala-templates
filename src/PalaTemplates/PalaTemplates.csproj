@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+	<LangVersion>10.0</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\PalaTemplateApi\.template.config\template.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="templates\PalaTemplateApi\PalaTemplateApi.Api\PalaTemplateApi.Api.csproj" />
+    <None Include="templates\PalaTemplateApi\PalaTemplateApi.Api\PalaTemplateApi.sln" />
+  </ItemGroup>
 
 </Project>
