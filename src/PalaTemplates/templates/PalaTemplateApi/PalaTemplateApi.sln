@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalaTemplateApi.Api", "PalaTemplateApi.Api\PalaTemplateApi.Api.csproj", "{A84D43EE-7BE3-4416-A981-3667C78C6B26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84D43EE-7BE3-4416-A981-3667C78C6B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84D43EE-7BE3-4416-A981-3667C78C6B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84D43EE-7BE3-4416-A981-3667C78C6B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84D43EE-7BE3-4416-A981-3667C78C6B26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B4306C-E895-4872-9878-0B45F01345FD}
+	EndGlobalSection
+EndGlobal
